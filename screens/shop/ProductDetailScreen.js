@@ -32,7 +32,7 @@ const ProductDetailScreen = (props) => {
   );
 };
 ProductDetailScreen.navigationOptions = {
-  headerTitle: "productTitle", //bug
+  headerTitle: "productTitle", //bug about the navigation headerTitle
 };
 // ProductDetailScreen.navigationOptions = (navData) => {
 //   return { headerTitle: navData.route.params.productTitle };

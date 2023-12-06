@@ -11,14 +11,14 @@ import {
 import { useDispatch, useSelector } from "react-redux";
 import { useRoute } from "@react-navigation/native";
 import * as cartActions from "../../store/actions/cart";
-import { HeaderButtons } from "react-navigation-header-buttons";
+import { HeaderButton } from "react-navigation-header-buttons"; //p148 8.11 about header
 import { Ionicons } from "@expo/vector-icons";
 import Colors from "../../constants/Colors";
-const HeaderButton = (props) => {
+const CustomHeaderButton = (props) => {
   // const productId = props.navigation.getParam("productId");
 
   return (
-    <HeaderButtons
+    <HeaderButton
       {...props}
       IconComponent={Ionicons}
       iconSize={23}
@@ -50,4 +50,4 @@ const styles = StyleSheet.create({
     textAlign: "center",
   },
 });
-export default HeaderButton;
+export default CustomHeaderButton;
