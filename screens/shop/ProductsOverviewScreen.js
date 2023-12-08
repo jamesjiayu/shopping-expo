@@ -43,7 +43,7 @@ ProductsOverviewScreen.navigationOptions = {
         iconName={Platform.OS === "android" ? "md-cart" : "ios-cart"}
       />
     </HeaderButtons>
-  ),
+  ), //icon cart does not show
 };
 const styles = StyleSheet.create({
   container: {

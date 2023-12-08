@@ -11,7 +11,7 @@ import {
 import { useDispatch, useSelector } from "react-redux";
 import { useRoute } from "@react-navigation/native";
 import * as cartActions from "../../store/actions/cart";
-import { HeaderButton } from "react-navigation-header-buttons"; //p148 8.11 about header
+import { HeaderButton } from "react-navigation-header-buttons"; //p148 8.11 about header, same bug as it in ProductionDetailScreen
 import { Ionicons } from "@expo/vector-icons";
 import Colors from "../../constants/Colors";
 const CustomHeaderButton = (props) => {
